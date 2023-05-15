@@ -1,0 +1,28 @@
+import tkinter
+from tkinter import *
+import tkinter as tk
+import os
+import winsound
+import time
+
+window = Tk()
+
+def Recursive():
+
+
+
+peter = PhotoImage(file='Peter.png')
+window.geometry("400x100+732+450")
+window.title("Peter Alert")
+label = Label(window, image=peter)
+winsound.PlaySound("SystemExit", winsound.SND_ASYNC)
+
+ButtonOk = Button(window,
+                  text="OK",
+                  padx=25,
+                  pady=5,
+                  command=Recursive())
+ButtonOk.pack()
+ButtonOk.place(x=163, y=50)
+label.pack()
+window.mainloop()
