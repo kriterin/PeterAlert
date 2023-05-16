@@ -25,7 +25,7 @@ def playGiggle():
 def playAnger():
     soundAngry = pygame.mixer.Sound("peter_angry.wav")
     soundAngry.play()
-
+# why the fuck did I add it
 def Moan():
     soundMoan = pygame.mixer.Sound("cum.wav")
     soundMoan.play()
@@ -33,7 +33,7 @@ def Moan():
 def Ambatukam():
     soundAmbatukam = pygame.mixer.Sound("holy_fuck.wav")
     soundAmbatukam.play()
-
+#
 def play_sound():
     sound = pygame.mixer.Sound("stalker.wav")
     sound.play(loops=1)
